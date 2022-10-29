@@ -1,0 +1,151 @@
+.faceman{
+    width:150px;
+    height:150px;
+    margin-left:290px;
+    margin-bottom:20px;
+}
+p{
+    font-size:20px;
+}
+div{
+    border:3px solid black;
+    padding-bottom: 50px;
+}
+.yellowbg {
+    background:#DFE15F;
+}
+.bluebg {
+    background: #19C6E1;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.greenbg {
+    background: #71E138;
+}
+.img1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin:10px;
+}
+.img2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin:10px;
+}
+
+p.pforimg3 {
+    overflow: hidden;
+    
+}
+.img4-6 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.img4{
+    z-index:1;
+}
+.img5{
+    bottom:50px;
+    left:50px;
+    z-index:2;
+}
+footer{
+    border:2px solid black;
+    width:250px;
+}
+.img6 {
+    bottom: 100px;
+    left: 100px;
+    z-index:3;
+}
+aside {
+    padding:5px;
+    margin-left:30px;
+    float: right;
+    width: 40%;
+    border:3px solid black;
+    padding-bottom:100px;
+}
+fieldset{
+    border:none;
+}
+.firstColInput {
+    margin-left: 200px;
+}
+article{
+    margin-bottom:25px;
+    margin-top:10px;
+}
+input{
+    height:30px;
+    width:300px;
+    margin:10px;
+    
+}
+.inputRadio {
+    height: 20px;
+    width: 20px;
+}
+
+legend {
+    font-size: 20px;
+}
+label {
+    font-size: 20px;
+}
+.columns{
+    columns:2;
+    column-gap:30px;
+    margin-top:30px;
+}
+.columns__item{
+   break-inside: avoid;
+}
+select {
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    
+}
+button{
+    width:150px;
+    height:50px;
+}
+.button1-2{
+    margin-left:350px;
+    
+}
+.button3 {
+    margin-left: 100px;
+}
+.button4 {
+    margin-left:650px;
+}
+textarea{
+    margin-top:30px;
+    width:700px;
+    height:300px;
+}
+.topbutton {
+    width: 100px;
+    border: 2px solid black;
+    background: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 16px;
+    
+}
+.contactImg{
+    width:25px;
+    height:25px;
+}

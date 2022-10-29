@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Форум для програмістів</title>
+    <meta charset="UTF-8">
+    <link href="class1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav>
+        <p align="center">
+            <a href="#Reg">Форма реєстрації &nbsp |</a>
+            <a href="#Log">Авторизація &nbsp |</a>
+            <a href="#Mesg">Зворотній зв'зок &nbsp </a>
+        </p>
+    </nav>
+    <aside>
+        <p>
+            Також наш сайт має більший архів різних алгоритмів, <ins class="color:blue">тут</ins>(посилання нема)
+        </p>
+        <img src="https://www.guru99.com/images/1/011019_1052_QuickSortAl4.png" class="img4-6 img4">
+        <img src="https://linuxhint.com/wp-content/uploads/2022/02/word-image-212.png" class="img4-6 img5">
+        <img src="https://geektechstuff.files.wordpress.com/2019/01/102_3_5_bubble_sort_geektechstuff.png?w=656&h=300&crop=1" class="img4-6 img6">
+    </aside>
+    <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" class="img1">
+        <p>
+            Вітаємо вас на нашому форумі для людей, що намагаються розібратися в великому та жорстокому світі програмування. Цей світ
+            не пробачає навіть наймаліші помилки. Тому на нашому проекті ви можете знайти відповіді на багато цікавих для вас запитань від
+            людей з різним досвідом у програмуванні. Окрім цього ви звичайно можете лампово поспілкуватися в колі таких як ви програмістів,
+            обсудити ваш досвід, порофлити та вцілому гарно провести час. Окрім цього наш сайт має й свій архів теоретичних та практичних
+            знань якими ми хочемо з вами поділитися.
+
+        </p>
+        <img src="https://webformyself.com/javascript/img/icon-js.png" class="img2">
+        <p>
+            Також,якщо вам сумно переписуватися, ви можете приєднатися до нашого діскорд каналу та продовжити своє навчання чи спілкування там. Не забувайте
+            слідкувати за нашими соц мережі,які можна знайти в кінці сторінки. Там будутьоголошення про різні івенти від нас, хакатони та інше.
+            Якщо у вас є якісь питання чи побажання то пишіть у "Зворотній зв'язок". Цей форум ще є молодим. Тому ми будемо раді вашим
+            пропозиціям, як вдосконалити наш сайт і не тільки.
+        </p>
+        <img src="https://play-lh.googleusercontent.com/jKr8mFk_TA_ndasSP-cr0nFS3fnKiyWhOYSFm0kaCbIKoeV4RK94IlUhV6MTAulTknXH=w240-h480-rw" class="img1" >
+        <p class="pforimg3">
+            Звичайно ми не хочемо сильно обмежувати наших користувачів в чомусь. Але треба пам'ятати про повагу один до одного, не флудити в чат
+            писати згідно з тематикою сайту. Порушників наших правил буде забанено(
+        </p>
+    </div>
+    <form id="Reg">
+        <div class="yellowbg">
+            <fieldset>
+                <legend>Форма реєстрації</legend>
+                <article class="columns">
+                    <article class="columns__item">
+                        <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/account_avatar_face_man_people_profile_user_icon_123197.png" class="faceman">
+                        <article class="firstColInput">
+                            <label>Ім'я (чи нікнейм)*</label><br>
+                            <input type="text" placeholder="Ім'я" required>
+                        </article>
+                        <article class="firstColInput">
+                            <label>Стать</label><br>
+                            <input id="male" name="sex" type="radio" class="inputRadio">
+                            <label for="male">Чоловіча</label>
+                            <input id="female" name="sex" type="radio" class="inputRadio">
+                            <label for="female">Жіноча</label>
+                        </article>
+                        <article class="firstColInput">
+                            <label>Вік*</label>
+                            <input type="number" min="1" max="100" value="16" style="width:50px" required>
+                        </article>
+                        <article class="firstColInput">
+                            <label>Дата народження</label>
+                            <input type="date" style="width:100px">
+                        </article>
+                    </article>
+                    <article class="columns__item">
+                        <article>
+                            <label>Країна проживання*</label><br>
+                            <select required>
+                                <option>Україна</option>
+                                <option>США</option>
+                                <option>Англія</option>
+                                <option>Польша</option>
+                            </select>
+                        </article>
+                        <article>
+                            <label>Номер телефону</label><br>
+                            <input type="tel" placeholder="+38(0XX)XXX-XX-XX" pattern="+380[0-9]{9}">
+                        </article>
+                        <article>
+                            <label>Cоц мережа</label><br>
+                            <input type="url" placeholder="Посилання на соц мережу">
+                        </article>
+                        <article>
+                            <label>Електронна пошта</label><br>
+                            <input type="email" placeholder="E-mail">
+                        </article>
+                        <article>
+                            <label>Пароль*</label><br>
+                            <input type="text" placeholder="Введіть пароль" required>
+                        </article>
+                        <article>
+                            <label for="accept">Ви згодні зі всіма умовами сайту</label>
+                            <input id="accept" type="radio" class="inputRadio" required>
+                        </article>
+                    </article>
+                </article>
+                <button type="submit" class="button1-2">Зареєструватися</button>
+                <button type="reset" class="button1-2">Відміна</button>
+            </fieldset>
+        </div>
+    </form>
+    <form id="Log">
+        <div class="bluebg">
+            <fieldset>
+                <legend>Авторизація</legend>
+                <article>
+                    <input type="text" placeholder="Логін" required>
+                </article>
+                <article>
+                    <input type="password" placeholder="Пароль" required>
+                </article>
+                <button type="submit" class="button3">Увійти</button>
+            </fieldset>
+        </div>
+    </form>
+    <form id="Mesg">
+        <div class="greenbg">
+            <fieldset>
+                <legend>Зворотній зв'язок</legend>
+                <article class="columns">
+                    <article class="columns__item">
+                        <article class="firstColInput">
+                            <label>Ім'я (чи нікнейм)*</label><br>
+                            <input type="text" placeholder="Ім'я" required>
+                        </article>
+                        <article class="firstColInput">
+                            <label>Електронна пошта*</label><br>
+                            <input type="email" placeholder="E-mail" required>
+                        </article>
+                        <article class="firstColInput">
+                            <label>Тема повідомлення*</label><br>
+                            <select required>
+                                <option>Скарга на користувача</option>
+                                <option>Пропозиція для покращення роботи сайту</option>
+                                <option>Зауваження до роботи сайту</option>
+                            </select>
+                        </article>
+                    </article>
+                    <article class="columns__item">
+                        <article>
+                            <textarea placeholder="Повідомлення" required></textarea>
+                        </article>
+                    </article>
+                </article>
+                <button type="submit" class="button4">Відправити</button>
+            </fieldset>
+        </div>
+    </form>
+    <footer>
+        Посилання на соц мережі
+        <a href="https://telegram.org/"><img src="https://w7.pngwing.com/pngs/402/10/png-transparent-telegram-logo-scalable-graphics-icon-logo-blue-angle-triangle.png" class="contactImg"></a>
+        <a href="https://www.instagram.com/"><img src="https://w7.pngwing.com/pngs/446/863/png-transparent-instagram-logo-icon.png" class="contactImg"></a>
+    </footer>
+    <a href="#" class="topbutton">Наверх</a>
+</body>
+</html>
