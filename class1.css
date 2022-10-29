@@ -7,6 +7,9 @@
 p{
     font-size:20px;
 }
+p.navigation{
+    position:fixed;
+}
 div{
     border:3px solid black;
     padding-bottom: 50px;
